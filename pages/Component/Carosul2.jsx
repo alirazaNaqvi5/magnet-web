@@ -1,5 +1,5 @@
 
-import Carousel, { consts } from 'react-elastic-carousel';
+import Carousel from 'react-elastic-carousel';
 
 
 const Carosel2 = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import Carosel from './Carosul'
 import Carosel2 from './Carosul2'
 
-export const Testimonials = () => {
+const Testimonials = () => {
   return (
     <div className='w-full'>
         <div className='w-full  bg-[#E5E5E5]'>
@@ -20,3 +20,5 @@ export const Testimonials = () => {
     </div>
   )
 }
+
+export default Testimonials

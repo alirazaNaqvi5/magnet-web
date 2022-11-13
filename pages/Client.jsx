@@ -1,6 +1,6 @@
 import React from 'react'
 import  Footer  from './Component/Footer';
-import Carosel2, { Carosul2 } from './Component/Carosul2';
+import Carosel2 from './Component/Carosul2';
 
 const Client = () => {
   return (

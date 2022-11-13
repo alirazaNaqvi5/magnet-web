@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Slide from 'react-reveal/Slide';
-export const CompanyIntro = () => {
+const CompanyIntro = () => {
   return (
     <div className='w-full  '>
         <div >
@@ -99,3 +99,5 @@ export const CompanyIntro = () => {
     </div>
   )
 } 
+
+export default CompanyIntro

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ClientCandidate = () => {
+const ClientCandidate = () => {
   return (
     <div className='w-full bg-[#14213d]'>
         <div className='md:w-full  md:grid md:grid-cols-2 m-auto '>
@@ -28,3 +28,5 @@ export const ClientCandidate = () => {
     </div>
   )
 }
+
+export default ClientCandidate

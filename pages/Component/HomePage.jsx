@@ -1,11 +1,11 @@
 import React from 'react'
-import { ClientCandidate } from './ClientCandidate'
-import { CompanyIntro } from './CompanyIntro'
+import  ClientCandidate  from './ClientCandidate'
+import  CompanyIntro  from './CompanyIntro'
 import  Footer  from './Footer'
 import Hero from './Hero'
-import { Testimonials } from './Testimonials'
+import  Testimonials  from './Testimonials'
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <div>
         <Hero/>
@@ -16,3 +16,6 @@ export const HomePage = () => {
     </div>
   )
 }
+
+
+export default HomePage
